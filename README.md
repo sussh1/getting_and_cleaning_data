@@ -44,7 +44,7 @@ The activity column was replaced with activity_label column
 ##For part 4:
 
 The parts of the labels that interfere with R programs ("-" and "()" )  
-were removed using gsub
+were removed using gsub. The case was changed to lower case using tolower.
 
 All abbreviations in the labels were replaced with descriptive labels 
 - t went to time
