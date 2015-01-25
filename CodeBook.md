@@ -65,7 +65,8 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 2. Only variables that ended in mean() or std() were kept.
 3. In the activity column the numbers 1-6 were relabelled using their descriptive label from activity_labels.txt file
 4. In the variable names "-" were amended to "_" and  "()" were deleted.
-5. The names were explanded from their short abbreviations to longer more meaningful names. The tidy dataset contained the following variables:
+5. The names were explanded from their short abbreviations to longer more meaningful names e.g. t was expanded to time.
+6. The tidy dataset contained the following variables, it is in wide format as discussed in https://class.coursera.org/getdata-010/forum/thread?thread_id=49:
 
  [1] "timeBodyAcceleration_mean_X" -                     
  [2] "timeBodyAcceleration_mean_Y"                    
